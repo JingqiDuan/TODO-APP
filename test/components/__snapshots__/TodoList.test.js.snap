@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render TodoList with todos 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TodoList
+    todos={
+        Array [
+            Object {
+              "createdAt": 0,
+              "description": "",
+              "eventName": "testEvent1",
+              "id": "1",
+              "importance": 7,
+            },
+            Object {
+              "createdAt": -345600000,
+              "description": "",
+              "eventName": "testEvent2",
+              "id": "2",
+              "importance": 729,
+            },
+            Object {
+              "createdAt": 345600000,
+              "description": "",
+              "eventName": "testEvent3",
+              "id": "1",
+              "importance": 7729,
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Todo List
+</h1>,
+        Array [
+          <TodoListItem
+            createdAt={0}
+            description=""
+            eventName="testEvent1"
+            id="1"
+            importance={7}
+/>,
+          <TodoListItem
+            createdAt={-345600000}
+            description=""
+            eventName="testEvent2"
+            id="2"
+            importance={729}
+/>,
+          <TodoListItem
+            createdAt={345600000}
+            description=""
+            eventName="testEvent3"
+            id="1"
+            importance={7729}
+/>,
+        ],
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Todo List",
+        },
+        "ref": null,
+        "rendered": "Todo List",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "function",
+        "props": Object {
+          "createdAt": 0,
+          "description": "",
+          "eventName": "testEvent1",
+          "id": "1",
+          "importance": 7,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "function",
+        "props": Object {
+          "createdAt": -345600000,
+          "description": "",
+          "eventName": "testEvent2",
+          "id": "2",
+          "importance": 729,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "function",
+        "props": Object {
+          "createdAt": 345600000,
+          "description": "",
+          "eventName": "testEvent3",
+          "id": "1",
+          "importance": 7729,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Todo List
+</h1>,
+          Array [
+            <TodoListItem
+              createdAt={0}
+              description=""
+              eventName="testEvent1"
+              id="1"
+              importance={7}
+/>,
+            <TodoListItem
+              createdAt={-345600000}
+              description=""
+              eventName="testEvent2"
+              id="2"
+              importance={729}
+/>,
+            <TodoListItem
+              createdAt={345600000}
+              description=""
+              eventName="testEvent3"
+              id="1"
+              importance={7729}
+/>,
+          ],
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Todo List",
+          },
+          "ref": null,
+          "rendered": "Todo List",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "createdAt": 0,
+            "description": "",
+            "eventName": "testEvent1",
+            "id": "1",
+            "importance": 7,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "function",
+          "props": Object {
+            "createdAt": -345600000,
+            "description": "",
+            "eventName": "testEvent2",
+            "id": "2",
+            "importance": 729,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "createdAt": 345600000,
+            "description": "",
+            "eventName": "testEvent3",
+            "id": "1",
+            "importance": 7729,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
